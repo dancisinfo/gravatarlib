@@ -1,18 +1,19 @@
 {
-    "name": "emberlabs/gravatarlib",
-    "description": "A lightweight PHP 5.3 OOP library providing easy gravatar integration.",
+    "name": "dancisinfo/libgravatar",
+    "description": "library for Gravatar",
     "keywords": ["gravatar", "templating", "twig"],
     "type": "library",
-	"homepage": "http://emberlabs.org/",
-    "license": "MIT",
-    "authors": [{
-        "name" : "Sam Thompson",
-        "email" : "sam@emberlabs.org"
-    },
-    {
-        "name" : "Damian Bushong",
-        "email" : "damian@emberlabs.org"
-    }],
+	// "homepage": "http://emberlabs.org/",
+    "license": "GPL",
+    "authors": [
+        {
+            "name" : "Sam Thompson",
+            "email" : "sam@emberlabs.org"
+        }, {
+            "name" : "Damian Bushong",
+            "email" : "damian@emberlabs.org"
+            }
+    ],
     "require": {
         "php": ">=5.3.0"
     },
@@ -20,9 +21,7 @@
         "twig/twig" : ">=1.4.0"
     },
     "autoload": {
-        "psr-0": {
-            "emberlabs\\gravatarlib\\": ""
-        }
+        "psr-4": {"dancisinfo\\libgravatar\\": ""}
     },
-    "target-dir" : "emberlabs/gravatarlib"
+    "target-dir" : "dancisinfo/libgravatar"
 }
